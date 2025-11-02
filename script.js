@@ -144,7 +144,7 @@ function newPrompt() {
 function copySelected() {
   try {
     const content = elements.promptContent
-    navigator.clipboard.writeText(content.innerTEXT)
+    navigator.clipboard.writeText(content.innerText)
 
     alert("Conteúdo copiado para a área de transferência!")
   } catch (error) {
@@ -205,3 +205,4 @@ function init() {
 }
 
 init()
+
